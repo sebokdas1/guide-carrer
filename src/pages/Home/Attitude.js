@@ -1,10 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUpRightDots } from '@fortawesome/free-solid-svg-icons';
+import { faEarthOceania } from '@fortawesome/free-solid-svg-icons';
 import img from '../../Asset/ideal_career 2.png'
-import './Top.css';
 
-const Top = () => {
+const Attitude = () => {
     return (
         <div className='shadow-sm'>
             <div className='guide-container  pt-8'>
@@ -13,7 +12,7 @@ const Top = () => {
 
                     <div>
                         <div className='pl-10 text-center'>
-                            <p className='text-xl'><FontAwesomeIcon icon={faArrowUpRightDots} /></p>
+                            <p className='text-xl'><FontAwesomeIcon icon={faEarthOceania} /></p>
                             <div className='empty-div-featured mx-auto mt-2 mb-3'></div>
 
                             <h1 className='uppercase text-5xl font-bold'>top<br />ideal careers</h1>
@@ -33,4 +32,4 @@ const Top = () => {
     );
 };
 
-export default Top;
+export default Attitude;
