@@ -2,6 +2,7 @@ import React from 'react';
 import GuideSection from './GuideSection';
 import Navbar from './Navbar';
 import Report from './Report';
+import Top from './Top';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Navbar />
             <GuideSection />
             <Report />
+            <Top />
         </div>
     );
 };
