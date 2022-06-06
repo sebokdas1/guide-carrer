@@ -3,6 +3,7 @@ import Attitude from './Attitude';
 import GuideSection from './GuideSection';
 import Motivators from './Motivators';
 import Navbar from './Navbar';
+import Promising from './Promising';
 import Report from './Report';
 import Top from './Top';
 
@@ -15,6 +16,7 @@ const Home = () => {
             <Top />
             <Motivators />
             <Attitude />
+            <Promising />
         </div>
     );
 };

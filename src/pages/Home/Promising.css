@@ -1,0 +1,9 @@
+.first-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
